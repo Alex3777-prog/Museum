@@ -38,4 +38,8 @@
       @include page-grid;
     }
   }
+
+  &__featured {
+    @include full-bleed;
+  }
 }

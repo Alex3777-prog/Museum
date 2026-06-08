@@ -16,5 +16,7 @@
   &__link {
     color: $c-text-primary;
     text-decoration: none;
+
+    @include hover(color, $c-accent-secondary);
   }
 }
